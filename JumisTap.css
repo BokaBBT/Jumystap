@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.list-item {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.buttons {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  .header {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .list-item {
+    font-size: 14px;
+  }
+  .content-img {
+    height: auto;
+    width: 100%;
+  }
+}
